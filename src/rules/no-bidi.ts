@@ -1,4 +1,3 @@
-// import { Rule } from "eslint";
 import { hasTrojanSource } from "anti-trojan-source";
 
 export function noBidi(context) {
