@@ -66,10 +66,6 @@ Following is a complete example of configuration if you are defining ESLint conf
 }
 ```
 
-# Contributing
-
-Please consult [CONTRIBUTING](./CONTRIBUTING.md) for guidelines on contributing to this project.
-
 # Author
 
 **anti-trojan-source** © [Liran Tal](https://github.com/lirantal), Released under the [Apache-2.0](./LICENSE) License.
