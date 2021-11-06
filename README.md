@@ -67,6 +67,19 @@ Following is a complete example of configuration if you are defining ESLint conf
 }
 ```
 
+## Example output
+
+The following is an example output when the plugin finds a Trojan Source attack in your codebase:
+
+```bash
+/Users/lirantal/projects/repos/@gigsboat/cli/index.js
+  1:1  error  Detected potential trojan source attack with unicode bidi introduced in this comment: '‮ } ⁦if (isAdmin)⁩ ⁦ begin admins only '  anti-trojan-source/no-bidi
+  1:1  error  Detected potential trojan source attack with unicode bidi introduced in this comment: ' end admin only ‮ { ⁦'                    anti-trojan-source/no-bidi
+
+/Users/lirantal/projects/repos/@gigsboat/cli/lib/helper.js
+  2:1  error  Detected potential trojan source attack with unicode bidi introduced in this code: '"user‮ ⁦// Check if admin⁩ ⁦"'  anti-trojan-source/no-bidi
+```
+
 # Author
 
 **eslint-plugin-anti-trojan-source** © [Liran Tal](https://github.com/lirantal), Released under the [Apache-2.0](./LICENSE) License.
