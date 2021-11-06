@@ -26,6 +26,8 @@ ESLint plugin to detect and stop Trojan Source attacks from entering your codeba
 
 If you're unaware of what Trojan Source attacks are, or how unicode characters injected into a codebase could be used in malicious ways, refer to the README of the [anti-trojan-source](https://github.com/lirantal/anti-trojan-source/) source code repository.
 
+This ESLint plugin is based on the library and command-line tool [anti-trojan-source](https://github.com/lirantal/anti-trojan-source).
+
 # Install
 
 ```bash
@@ -68,4 +70,4 @@ Following is a complete example of configuration if you are defining ESLint conf
 
 # Author
 
-**anti-trojan-source** © [Liran Tal](https://github.com/lirantal), Released under the [Apache-2.0](./LICENSE) License.
+**eslint-plugin-anti-trojan-source** © [Liran Tal](https://github.com/lirantal), Released under the [Apache-2.0](./LICENSE) License.
