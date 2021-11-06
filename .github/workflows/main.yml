@@ -36,6 +36,8 @@ jobs:
           node-version: "16"
       - name: install deps
         run: npm ci --ignore-engines
+      - name: build the rules for commonjs consumers
+        run: npm run build
       - name: release
         run: npx semantic-release
         env:
