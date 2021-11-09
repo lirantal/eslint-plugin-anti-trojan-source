@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  Detect trojan source attacks that employ unicode bidi attacks to inject malicious code
+  ESLint plugin to detect and prevent Trojan Source attacks from entering your codebase
 </p>
 
 <p align="center">
