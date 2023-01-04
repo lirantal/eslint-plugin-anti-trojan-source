@@ -27,6 +27,9 @@ If you're unaware of what Trojan Source attacks are, or how unicode characters i
 
 This ESLint plugin is based on the library and command-line tool [anti-trojan-source](https://github.com/lirantal/anti-trojan-source).
 
+👋 *Jan 2023 Update*:
+This plugin [inspired work](https://github.com/eslint-community/eslint-plugin-security/pull/95) to create an anti-trojan rule `detect-bidi-characters` in [eslint-plugin-security](https://github.com/eslint-community/eslint-plugin-security) and if you're already using that security plugin then it is advised to turn on that rule.
+
 # Install
 
 ```bash
