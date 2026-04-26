@@ -57,6 +57,10 @@
     "url": "https://github.com/lirantal"
   },
   "license": "Apache-2.0",
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  },
   "release": {
     "branches": [
       "main",
