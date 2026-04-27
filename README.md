@@ -14,7 +14,7 @@
   <a href="https://www.npmjs.org/package/eslint-plugin-anti-trojan-source"><img src="https://badgen.net/npm/v/eslint-plugin-anti-trojan-source" alt="npm version"/></a>
   <a href="https://www.npmjs.org/package/eslint-plugin-anti-trojan-source"><img src="https://badgen.net/npm/license/eslint-plugin-anti-trojan-source" alt="license"/></a>
   <a href="https://www.npmjs.org/package/eslint-plugin-anti-trojan-source"><img src="https://badgen.net/npm/dt/eslint-plugin-anti-trojan-source" alt="downloads"/></a>
-  <a href="https://github.com/lirantal/eslint-plugin-anti-trojan-source/actions?workflow=CI"><img src="https://github.com/lirantal/eslint-plugin-anti-trojan-source/workflows/CI/badge.svg" alt="build"/></a>
+  <a href="https://github.com/lirantal/eslint-plugin-anti-trojan-source/actions/workflows/main.yml"><img src="https://github.com/lirantal/eslint-plugin-anti-trojan-source/actions/workflows/main.yml/badge.svg?branch=main" alt="build"/></a>
   <a href="./SECURITY.md"><img src="https://img.shields.io/badge/Security-Responsible%20Disclosure-yellow.svg" alt="Responsible Disclosure Policy" /></a>
 </p>
 
