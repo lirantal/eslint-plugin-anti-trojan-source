@@ -96,6 +96,10 @@ The following is an example output when the plugin finds a Trojan Source attack 
   2:1  error  Detected potential trojan source attack with unicode bidi introduced in this code: '"user‮ ⁦// Check if admin⁩ ⁦"'  anti-trojan-source/no-bidi
 ```
 
+## Contributing
+
+Please consult [CONTRIBUTING](./CONTRIBUTING.md) for guidelines on contributing to this project.
+
 # Author
 
 **eslint-plugin-anti-trojan-source** © [Liran Tal](https://github.com/lirantal), Released under the [Apache-2.0](./LICENSE) License.
