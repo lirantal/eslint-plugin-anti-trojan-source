@@ -44,7 +44,7 @@ jobs:
       - name: build the rules for commonjs consumers
         run: npm run build
       - name: release
-        run: npx semantic-release@latest
+        run: npm run semantic-release
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
