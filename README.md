@@ -96,6 +96,10 @@ The following is an example output when the plugin finds a Trojan Source attack 
   2:1  error  Detected potential trojan source attack with unicode bidi introduced in this code: '"user‮ ⁦// Check if admin⁩ ⁦"'  anti-trojan-source/no-bidi
 ```
 
+## Documentation
+
+- [Project documentation](./docs/README.md) - development, testing, architecture, and conventions.
+
 ## Contributing
 
 Please consult [CONTRIBUTING](./CONTRIBUTING.md) for guidelines on contributing to this project.
